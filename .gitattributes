@@ -1,3 +1,15 @@
+# Standard: använd LF i repo
 * text=auto eol=lf
-*.bicep -text
-*.bicepparam -text
+
+# Bicep & JSON/JSONC – alltid LF
+*.bicep text eol=lf
+*.json  text eol=lf
+*.jsonc text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.sh    text eol=lf
+
+# Windows-skript – CRLF i arbetskopia
+*.ps1   text eol=crlf
+*.cmd   text eol=crlf
+*.bat   text eol=crlf
