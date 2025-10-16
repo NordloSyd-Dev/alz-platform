@@ -1,0 +1,8 @@
+{
+  "parameters": {
+    "rootManagementGroupId": { "value": "nsyd-root" },
+    "defaultLocation":       { "value": "westeurope" },
+    "naming": { "value": { "orgPrefix": "nsyd", "separator": "-" } },
+    "tags":   { "value": { "Owner": "Platform", "CostCenter": "1000", "Environment": "prod" } }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "hubLocation":     { "value": "westeurope" },
+    "enableDdos":      { "value": false },
+    "firewallEnabled": { "value": false },
+    "addressSpaces": {
+      "value": {
+        "hubVnet": "10.0.0.0/24",
+        "spoke1":  "10.0.1.0/24",
+        "spoke2":  "10.0.2.0/24"
+      }
+    }
+  }
+}
